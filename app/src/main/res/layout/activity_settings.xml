@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/lifeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <Switch
+            android:id="@+id/lifeLineSwitch"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Spinner
+            android:id="@+id/lifeLineColor"
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:entries="@array/color_arrays"
+            >
+        </Spinner>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/familyText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        />
+
+        <Spinner
+            android:id="@+id/familyColor"
+            android:layout_width="91dp"
+            android:layout_height="wrap_content"
+            android:entries="@array/color_arrays">
+
+        </Spinner>
+
+        <Switch
+            android:id="@+id/familySwitch"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spouse_text"
+            />
+
+        <Spinner
+            android:id="@+id/spouseColor"
+            android:layout_width="94dp"
+            android:layout_height="wrap_content"
+            android:entries="@array/color_arrays"
+            >
+        </Spinner>
+
+        <Switch
+            android:id="@+id/spouseSwitch"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/map_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <Spinner
+            android:id="@+id/mapType"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:entries="@array/type_arrays">
+        </Spinner>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/resync"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/logout"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>

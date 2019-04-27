@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+    <item
+        android:id="@+id/searchButton"
+        android:title="searchButton"
+        app:showAsAction="always"
+        />
+    <item android:id="@+id/filterButton"
+        android:title="fitlerButton"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/settingsButton"
+        android:orderInCategory="100"
+        android:title="settingsButton"
+        app:showAsAction="always"
+        />
+
+
+</menu>

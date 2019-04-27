@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="click_on_a_marker_to_see_an_event">Click on a marker to see an event</string>
+    <string name="gender_image">Gender Image</string>
+    <string name="header_events">header_events</string>
+    <string name="color_arrays">color_arrays</string>
+
+    <string-array name="color_arrays">
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+    </string-array>
+
+    <string-array name="type_arrays">
+        <item>Normal</item>
+        <item>Hybrid</item>
+        <item>Satellite</item>
+        <item>Terrain</item>
+    </string-array>
+
+</resources>
